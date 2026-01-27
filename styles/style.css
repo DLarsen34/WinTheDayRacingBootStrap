@@ -1,0 +1,50 @@
+nav {
+    background-color: #c49c67;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar {
+    font-size: 16px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+body {
+    background-color: #D2B48C;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    height: 100%;
+}
+
+.card {
+    background-color: #D2B48C;
+    border: none;
+}
+
+.topPerformers {
+    list-style: none;
+    text-align: center;
+}
+
+ul {
+    columns: 2;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    padding: 10px; /* Add some space above and below the text */
+    background-color: #f4f4f4; /* A light background color */
+    color: #666; /* A subtle text color */
+    font-size: 0.8em; /* Make the text small */
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (min-width: 768px) {
+    ul {
+        columns: 3;
+    }
+}
