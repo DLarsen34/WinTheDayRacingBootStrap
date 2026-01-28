@@ -39,6 +39,14 @@ ul {
     margin-bottom: 40px;
 }
 
+.c-item {
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+}
+
 footer {
     position: fixed;
     text-align: center;
