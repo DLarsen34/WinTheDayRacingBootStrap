@@ -21,7 +21,7 @@ body {
     height: 100%;
 }
 
-.card {
+.index-card {
     background-color: #D2B48C;
     border: none;
 }
@@ -38,6 +38,7 @@ ul {
 .carousel {
     margin-bottom: 40px;
 }
+
 footer {
     position: fixed;
     text-align: center;
