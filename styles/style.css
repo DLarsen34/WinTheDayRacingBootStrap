@@ -4,6 +4,14 @@
     font-style: normal;
 }
 
+body {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: blanchedalmond;
+}
+
 nav {
     background-color: #c49c67;
 }
@@ -21,11 +29,6 @@ body {
     height: 100%;
 }
 
-.index-card {
-    background-color: #D2B48C;
-    border: none;
-}
-
 .topPerformers {
     list-style: none;
     text-align: center;
@@ -39,12 +42,46 @@ ul {
     margin-bottom: 40px;
 }
 
-.c-item {
-    height: 480px;
+.shootin {
+    color: black;
 }
 
-.c-img {
-    height: 100%;
+.btn:hover {
+    background-color: #D2B48C;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.card {
+    background-color: #c49c67;
+}
+
+.index-card {
+    background-color: #D2B48C;
+    border: none;
+}
+
+@media (min-width: 1024px){
+    .c-item {
+        height: 575px;
+    }
+
+    .c-img {
+        height: 100%;
+    }
+}
+
+@media (min-width: 1440px){
+    .c-item {
+        height: 700px;
+    }
+
+    .c-img {
+        height: 100%;
+    }
 }
 
 footer {
