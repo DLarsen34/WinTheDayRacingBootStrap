@@ -42,6 +42,10 @@ ul {
     margin-bottom: 40px;
 }
 
+.modal-header {
+    background-color: #D2B48C
+}
+
 .shootin {
     color: black;
 }

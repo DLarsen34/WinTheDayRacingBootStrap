@@ -32,7 +32,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6" style="margin-bottom: 20px;">
             <div class="card mb-3 h-100" style="margin-top: 20px;">
-              <img src="../images/TestHorse.jpg" class="card-img-top" alt="...">
+              <img src="../images/TestHorse.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#imageModal" style="cursor: pointer;">
               <div class="card-body d-flex flex-column">
                 <h4 class="card-title"><strong>Kono (ID)</strong></h4>
                 <p class="card-text">Idaho bred Mare by Dashair out of Italian Princess by Blushing Bug.<hr/>
@@ -66,6 +66,20 @@
                     </ul>
                   <a href="https://www.equibase.com/profiles/Results.cfm?type=Horse&refno=10797031&registry=Q" target="_blank" class="btn mt-auto">Pendelton's Equibase Profile</a>
                 </p>
+              </div>
+            </div>
+            <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg"> <!-- Use modal-lg for a larger modal -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Kono (ID)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <!-- The enlarged image goes here, use img-fluid for responsiveness -->
+                    <img src="../images/TestHorse.jpg" class="img-fluid" alt="Large image">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
